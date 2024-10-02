@@ -7,7 +7,7 @@ function updateTime() {
 
     losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM D YYYY");
     losAngelesTimeElement.innerHTML = losAngelesTime.format(
-      "h:mm:ss[<small>]A[</small>]"
+      "h:mm:ss[<small>] A [</small>]"
     );
   }
 
@@ -19,7 +19,7 @@ function updateTime() {
 
     parisDateElement.innerHTML = parisTime.format("MMMM D YYYY");
     parisTimeElement.innerHTML = parisTime.format(
-      "h:mm:ss[<small>]A[</small>]"
+      "h:mm:ss[<small>] A [</small>]"
     );
   }
 }

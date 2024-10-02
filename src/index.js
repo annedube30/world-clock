@@ -1,5 +1,5 @@
 function updateTime() {
-  let losAngelesElement = document.querySelector("#los-angels");
+  let losAngelesElement = document.querySelector("#los-angeles");
   let losAngelesDateElement = losAngelesElement.querySelector(".date");
   let losAngelesTimeElement = losAngelesElement.querySelector(".time");
   let losAngelesTime = moment().tz("America/Los_Angeles");

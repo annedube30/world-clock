@@ -11,14 +11,14 @@ function updateTime() {
     );
   }
 
-  let sydneyElement = document.querySelector("#sydney");
-  if (sydneyElement) {
-    let sydneyDateElement = sydneyElement.querySelector("#date");
-    let sydneyTimeElement = sydneyElement.querySelector("#time");
-    let sydneyTime = moment().tz("Australia/Sydney");
+  let parisElement = document.querySelector("#paris");
+  if (parisElement) {
+    let parisDateElement = parisElement.querySelector("#date");
+    let parisTimeElement = parisElement.querySelector("#time");
+    let parisTime = moment().tz("Europe/Paris");
 
-    sydneyDateElement.innerHTML = sydneyTime.format("MMMM DO YYYY");
-    sydneyTimeElement.innerHTML = sydneyTime.format(
+    parisDateElement.innerHTML = parisTime.format("MMMM DO YYYY");
+    parisTimeElement.innerHTML = parisTime.format(
       "h:mm:ss[<small>]A[</small>]"
     );
   }

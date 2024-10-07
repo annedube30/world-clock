@@ -6,6 +6,10 @@ h2 {
   margin: 0 0 5px;
   font-size: 28px;
 }
+a {
+  font-size: 15px;
+  color: brown;
+}
 select {
   display: block;
   width: 100%;

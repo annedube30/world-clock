@@ -122,3 +122,29 @@ footer {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+@media (max-width: 600px) {
+  .clock {
+    width: 100px;
+    height: 100px;
+    right: 280px;
+    bottom: 310px;
+    background: rgba(235, 0, 255, 0.11);
+    border-radius: 55%;
+    background-color: black;
+    position: absolute;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSop7afS9PubnJps5AR5fAJKAOc-yD0BT1u4w&s");
+    background-size: contain;
+
+    text-align: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+  }
+  footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}

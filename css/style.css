@@ -30,55 +30,51 @@ body {
   width: 100px;
   height: 100px;
   right: 280px;
-  bottom: 300px;
+  bottom: 310px;
   background: rgba(235, 0, 255, 0.11);
-  border-radius: 50%;
+  border-radius: 55%;
   background-color: black;
   position: absolute;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSop7afS9PubnJps5AR5fAJKAOc-yD0BT1u4w&s");
   background-size: contain;
-  background-position: center;
-  margin: 10px auto;
+
+  text-align: center;
 
   background-size: contain;
   background-repeat: no-repeat;
   padding: 10px;
 }
 .hour {
-  width: 10px;
-  height: 5%;
+  height: 4px;
+  width: 5%;
   background-color: black;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 4px;
-  width: 25%;
+  top: 37%;
+  left: 66%;
   border-radius: 55%;
+
   transform: rotate(-90deg);
   transform-origin: left;
 }
 .minute {
-  width: 7px;
-  height: 40%;
   background-color: black;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 37%;
+  left: 66%;
   height: 3px;
-  width: 40%;
+  width: 5%;
+
   border-radius: 55%;
   transform: rotate(-90deg);
   transform-origin: left;
 }
 .second {
-  width: 5px;
-  height: 2%;
   background-color: black;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 2px;
-  width: 35%;
+  top: 37%;
+  left: 66%;
+  height: 3px;
+  width: 5%;
   border-radius: 55%;
   transform: rotate(-90deg);
   transform-origin: left;

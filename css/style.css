@@ -46,7 +46,7 @@ body {
 }
 .hour {
   height: 4px;
-  width: 5%;
+  width: 3%;
   background-color: black;
   position: absolute;
   top: 37%;

@@ -15,12 +15,81 @@ select {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body {
-  background-color: #c9c9c9;
+  background: radial-gradient(
+    590px at 8.2% 13.8%,
+    rgb(18, 35, 60) 0%,
+    rgb(187, 187, 187) 90%
+  );
 }
+::after,
+::before {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.clock {
+  width: 100px;
+  height: 100px;
+  right: 280px;
+  bottom: 300px;
+  background: rgba(235, 0, 255, 0.11);
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSop7afS9PubnJps5AR5fAJKAOc-yD0BT1u4w&s");
+  background-size: contain;
+  background-position: center;
+  margin: 10px auto;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.hour {
+  width: 10px;
+  height: 5%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 4px;
+  width: 25%;
+  border-radius: 55%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+}
+.minute {
+  width: 7px;
+  height: 40%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 3px;
+  width: 40%;
+  border-radius: 55%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+}
+.second {
+  width: 5px;
+  height: 2%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 2px;
+  width: 35%;
+  border-radius: 55%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+}
+
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background-image: url("https://images.stockcake.com/public/8/a/f/8af44186-b8a1-426c-b27b-c87c59962632_large/snowy-winter-evening-stockcake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0.4);
   border-radius: 10px;
@@ -50,5 +119,6 @@ body {
 footer {
   text-align: center;
   margin: 10px 0;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

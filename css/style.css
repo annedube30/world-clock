@@ -38,7 +38,7 @@ body {
   background: rgba(235, 0, 255, 0.11);
   border-radius: 55%;
   background-color: black;
-  position: absolute;
+  position: fixed;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSop7afS9PubnJps5AR5fAJKAOc-yD0BT1u4w&s");
   background-size: contain;
 
@@ -52,7 +52,7 @@ body {
   height: 4px;
   width: 3%;
   background-color: black;
-  position: absolute;
+  position: fixed;
   top: 37%;
   left: 66%;
   border-radius: 55%;
@@ -62,7 +62,7 @@ body {
 }
 .minute {
   background-color: black;
-  position: absolute;
+  position: fixed;
   top: 37%;
   left: 66%;
   height: 3px;
@@ -74,7 +74,7 @@ body {
 }
 .second {
   background-color: black;
-  position: absolute;
+  position: fixed;
   top: 37%;
   left: 66%;
   height: 3px;

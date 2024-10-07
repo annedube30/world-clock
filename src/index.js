@@ -14,13 +14,13 @@ setInterval(() => {
   hourElement.style.transform = `rotate(${hourDeg}deg)`;
 }, 1000);
 function updateTime() {
-  let losAngelesElement = document.querySelector("#los-Angeles");
+  let losAngelesElement = document.querySelector("#los-angeles");
   if (losAngelesElement) {
     let losAngelesDateElement = losAngelesElement.querySelector(".date");
     let losAngelesTimeElement = losAngelesElement.querySelector(".time");
     let losAngelesTime = moment().tz("America/Los_Angeles");
 
-    losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM DD YYYY");
+    losAngelesDateElement.innerHTML = losAngeles.format("MMMM DD YYYY");
     losAngelesTimeElement.innerHTML = losAngelesTime.format(
       "h:mm:ss[<small>] A [</small>]"
     );
